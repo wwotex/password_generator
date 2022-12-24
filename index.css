@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Karla-800;
+    src: url(Karla/static/Karla-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Karla-400;
+    src: url(Karla/static/Karla-Regular.ttf);
+}
+@font-face {
+    font-family: Karla-500;
+    src: url(Karla/static/Karla-Medium.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    color: #ffffff;
+    font-family: Karla-400;
+    user-select: none;
+}
+
+#container {
+    box-sizing: border-box;
+    padding: 115px 52px;
+    width: 550px;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Karla-800;
+    font-size: 40px;
+    margin: 0;
+}
+
+h1 span {
+    color: #4ADF86;
+}
+
+p {
+    margin: 10px 0 51px 0;
+    color: #D5D4D8;
+}
+
+button {
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    border: none;
+    background-color: #10B981;
+    color: #ffffff;
+    font-family: Karla-500;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #10b981d6;
+}
+
+button:active {
+    background-color: #10b98166;
+}
+
+.separator {
+    width: 446px;
+    height: 1px;
+    background-color:#2F3E53;
+    margin: 35px 0;
+
+}
+
+.h-layout {
+    height: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.generated {
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Karla-500;
+    color: #55F991;
+    user-select: none;
+    cursor: grab;
+}
+
+.generated:hover {
+    background-color: #273549d6;
+}
+
+.generated:active {
+    background-color: #27354966;
+}
